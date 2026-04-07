@@ -1,0 +1,51 @@
+---
+title: Meshtastic
+hide:
+  - navigation
+  - toc
+tags:
+  - Info
+  - Meshtastic
+---
+
+# Meshtastic
+
+This section contains documentation that is specific to Meshtastic hardware, firmware, tools, and operating patterns.
+
+<style>
+  .grid.cards {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  }
+  .handheld {
+    --md-icon-size: 1.8em !important;
+    vertical-align: bottom !important;
+  }
+</style>
+
+<div class="grid cards" markdown>
+
+-   :material-checkbox-multiple-marked-outline:{ .lg .middle } __Getting Started__
+
+    ---
+
+    Flash a node, connect to it, and walk through the first setup steps.
+
+    [:fontawesome-solid-angle-right: Open](getting-started/index.md)
+
+-   :material-radar:{ .lg .middle } __MQTT__
+
+    ---
+
+    Configure MQTT connectivity and align your node with local mesh expectations.
+
+    [:fontawesome-solid-angle-right: Open](mqtt.md)
+
+-   :material-lock:{ .lg .middle } __Local Channel__
+
+    ---
+
+    Join the Chicagoland shared channel with the current channel configuration.
+
+    [:fontawesome-solid-angle-right: Open](local-channel.md)
+
+</div>

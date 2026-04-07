@@ -76,6 +76,11 @@
     color: var(--md-default-fg-color--light);
 }
 
+/* keep deprecated hidden section roots out of the top tabs if they ever appear */
+.md-tabs__item:has(> .md-tabs__link[href$="shared/"]) {
+    display: none;
+}
+
 /* prevent bouncing effect when scrolling out of bounds */
 html {
     overscroll-behavior-y: none;

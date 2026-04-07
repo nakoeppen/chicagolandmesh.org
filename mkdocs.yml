@@ -13,16 +13,38 @@ copyright: >-
 nav:
   - About: about.md
   - Guides:
-    - guides/index.md
-    - Getting Started:
-      - guides/getting-started/index.md
-      - Configuring Meshtastic: guides/getting-started/configure.md
-      - Mistakes to Avoid: guides/getting-started/avoid-mistakes.md
-    - Setup MQTT: guides/mqtt.md
-    - Local Channel: guides/local-channel.md
-    - Builds:
-      - guides/builds/index.md
-      - Contributing: guides/builds/contributing.md
+    - guides.md
+    - Shared Community Docs:
+      - shared/index.md
+      - Build Guides:
+        - shared/builds/index.md
+      - Contributing: shared/contributing.md
+    - Meshtastic:
+      - protocols/meshtastic/index.md
+      - Getting Started:
+        - protocols/meshtastic/getting-started/index.md
+        - Configuring Meshtastic: protocols/meshtastic/getting-started/configure.md
+        - Mistakes to Avoid: protocols/meshtastic/getting-started/avoid-mistakes.md
+      - Setup MQTT: protocols/meshtastic/mqtt.md
+      - Local Channel: protocols/meshtastic/local-channel.md
+    - MeshCore:
+      - protocols/meshcore/index.md
+      - Getting Started:
+        - protocols/meshcore/getting-started/index.md
+        - Configuring MeshCore: protocols/meshcore/getting-started/configure.md
+        - Mistakes to Avoid: protocols/meshcore/getting-started/avoid-mistakes.md
+    - Reticulum:
+      - protocols/reticulum/index.md
+      - Getting Started:
+        - protocols/reticulum/getting-started/index.md
+        - Configuring Reticulum: protocols/reticulum/getting-started/configure.md
+        - Mistakes to Avoid: protocols/reticulum/getting-started/avoid-mistakes.md
+  - Resources:
+    - resources.md
+    - Shared Resources: shared/resources/index.md
+    - Meshtastic Resources: protocols/meshtastic/resources.md
+    - MeshCore Resources: protocols/meshcore/resources.md
+    - Reticulum Resources: protocols/reticulum/resources.md
   - News: news.md
   - Map: map.md
   - MeshView:
@@ -36,7 +58,6 @@ nav:
     - View Externally: https://meshview.chicagolandmesh.org
   # TODO: gallery
   # - Gallery: gallery/index.md
-  - Resources: resources.md
   - Contact: contact.md
 
 hooks:
@@ -50,7 +71,7 @@ plugins:
   - minify:
       minify_html: true
   - blog:
-      blog_dir: guides/builds
+      blog_dir: shared/builds
       archive: false
 
 markdown_extensions:

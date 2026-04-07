@@ -1,4 +1,5 @@
 ---
+title: Builds
 hide:
   - footer
   - toc
@@ -6,7 +7,7 @@ hide:
 
 # Builds
 
-The build guides are split into three categories: Fixed, Mobile, and Solar. Each category offers guides specific to its type.
+These build guides are shared community resources. They are split into Fixed, Mobile, and Solar categories because the hardware ideas often apply across multiple protocols.
 
 <style>
   .grid.cards {
@@ -44,12 +45,3 @@ The build guides are split into three categories: Fixed, Mobile, and Solar. Each
     [:fontawesome-solid-angle-right: View](category/solar.md)
 
 </div>
-
-## [How to Contribute](contributing.md)
-
-If you would like to contribute with a new guide or an improvement to the existing ones, please follow these steps:
-
-[Continue reading](contributing.md)
-
-<hr>
-<br>

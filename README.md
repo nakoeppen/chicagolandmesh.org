@@ -19,7 +19,7 @@ We welcome contributions from the community! To contribute to the website:
 
 ### Submitting Build Guides
 
-If you would like to contribute a build guide, or update an existing one, please visit the [how to contribute](https://chicagolandmesh.org/guides/builds/contributing/) page for instructions.
+If you would like to contribute a build guide, or update an existing one, please visit the [how to contribute](https://chicagolandmesh.org/shared/contributing/) page for instructions.
 
 ## Development
 

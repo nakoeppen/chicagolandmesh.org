@@ -7,73 +7,48 @@ tags:
   - Info
 ---
 
-# Resources to check out
+# Resources
+
+Use this page as the main resource switchboard. Start with shared resources that apply across the community, or jump into a protocol-specific collection.
+
+<style>
+  .grid.cards {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  }
+</style>
 
 <div class="grid cards" markdown>
 
-- [Chicagoland Mesh Github](https://github.com/chicagolandmesh/chicagolandmesh.org)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/chicagolandmesh/chicagolandmesh.org)
+-   :material-account-group:{ .lg .middle } __Shared Resources__
 
-- [Official Meshtastic Website](https://meshtastic.org/)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://meshtastic.org/)
+    ---
 
-- [Awesome Meshtastic Github](https://github.com/ShakataGaNai/awesome-meshtastic/)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/ShakataGaNai/awesome-meshtastic/)
+    Open shared resources, community links, and cross-protocol tools useful across the whole site.
 
-- [Meshtastic Local Groups](https://meshtastic.org/docs/community/local-groups/)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/673/allowJPG/noanimate/http://meshtastic.org/docs/community/local-groups/)
+    [:fontawesome-solid-angle-right: Open](shared/resources/index.md)
 
-- [TC2-BBS-Mesh](https://github.com/TheCommsChannel/TC2-BBS-mesh)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/TheCommsChannel/TC2-BBS-mesh)
+-   :material-radio-handheld:{ .lg .middle } __Meshtastic__
 
-- [meshing-around BBS bot](https://github.com/SpudGunMan/meshing-around)
-  ![Link preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/SpudGunMan/meshing-around)
+    ---
 
-- [Meshtastic Antenna Reports](https://github.com/RicInNewMexico/Meshtastic-Antenna-Reports)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/RicInNewMexico/Meshtastic-Antenna-Reports)
+    Open Meshtastic resources including MQTT tools, maps, and app links.
 
-- [Meshtastic SAME EAS Alerter](https://github.com/RCGV1/Meshtastic-SAME-EAS-Alerter)
-  ![Link preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/RCGV1/Meshtastic-SAME-EAS-Alerter)
+    [:fontawesome-solid-angle-right: Open](protocols/meshtastic/resources.md)
 
-- [Meshtastic Site Planner](https://site.meshtastic.org)
-  ![Link preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://site.meshtastic.org)
+-   :material-access-point-network:{ .lg .middle } __MeshCore__
 
-</div>
+    ---
 
+    Open MeshCore resources including project links, references, and ecosystem tools.
 
-## MQTT Related
+    [:fontawesome-solid-angle-right: Open](protocols/meshcore/resources.md)
 
-<div class="grid cards" markdown>
+-   :material-lan:{ .lg .middle } __Reticulum__
 
-- [MQTT MeshMap](https://meshmap.net/)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://meshmap.net/)
+    ---
 
-- [Liam Cottle's MQTT MeshMap](https://meshtastic.liamcottle.net/)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://meshtastic.liamcottle.net/)
+    Open Reticulum resources including references, guides, and discovery tools.
 
-- [meshtastic-mqtt-discord-bridge](https://github.com/daviesgeek/meshtastic-mqtt-discord-bridge?tab=readme-ov-file)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/daviesgeek/meshtastic-mqtt-discord-bridge?tab=readme-ov-file)
-
-- [MeshView](https://github.com/pablorevilla-meshtastic/meshview)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/pablorevilla-meshtastic/meshview)
-
-</div>
-
-
-## Tools and Apps
-
-<div class="grid cards" markdown>
-
-- [MeshSense](https://affirmatech.com/meshsense)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://affirmatech.com/meshsense)
-
-- [Liam Cottle's MeshTXT](https://meshtxt.liamcottle.net/)
-  ![Link Preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://meshtxt.liamcottle.net/)
-
-- [HeyWhatsThat](https://www.heywhatsthat.com/)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://www.heywhatsthat.com/)
-
-- [HeyWhatsThat Path Profiler](https://www.heywhatsthat.com/profiler.html)
-  ![Link preivew](https://image.thum.io/get/width/700/maxAge/673/allowJPG/noanimate/http://www.heywhatsthat.com/profiler.html)
+    [:fontawesome-solid-angle-right: Open](protocols/reticulum/resources.md)
 
 </div>
