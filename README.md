@@ -23,7 +23,12 @@ If you would like to contribute a build guide, or update an existing one, please
 
 ## Development
 
-Use `make build/site` to build the static site into the `dist` directory and `make dev` to start up the development server in docker.
+To spin up a live development environment to test project contributions, please run the following commands in the project root directory.
+```
+cp .example.env .env
+make build/site
+make dev
+```
 
 ## License
 
