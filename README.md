@@ -23,12 +23,7 @@ If you would like to contribute a build guide, or update an existing one, please
 
 ## Development
 
-To spin up a live development environment to test project contributions, please run the following commands in the project root directory.
-```
-cp .example.env .env
-make build/site
-make dev
-```
+To start the live development environment, run `make dev` from the project root, or run `make dev/site` to skip downloading map assets, which can take some time depending on your internet connection. This requires [Docker](https://www.docker.com/get-started/) to be installed, and the full development environment also requires [Go](https://go.dev/doc/install).
 
 ## License
 
