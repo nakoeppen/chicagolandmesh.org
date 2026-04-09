@@ -12,15 +12,9 @@ tags:
 
 This section is reserved for MeshCore-specific guides, resources, and community practices.
 
-<style>
-  .grid.cards {
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-  }
-</style>
-
 <div class="grid cards" markdown>
 
--   :material-checkbox-multiple-marked-outline:{ .lg .middle } __Getting Started__
+-   :material-checkbox-multiple-marked-outline:{ .lg .top } __Getting Started__
 
     ---
 
@@ -28,7 +22,7 @@ This section is reserved for MeshCore-specific guides, resources, and community 
 
     [:fontawesome-solid-angle-right: Open](getting-started/index.md)
 
--   :material-bookshelf:{ .lg .middle } __Resources__
+-   :material-bookshelf:{ .lg .top } __Resources__
 
     ---
 

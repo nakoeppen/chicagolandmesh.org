@@ -12,19 +12,9 @@ tags:
 
 This section contains documentation that is specific to Meshtastic hardware, firmware, tools, and operating patterns.
 
-<style>
-  .grid.cards {
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-  }
-  .handheld {
-    --md-icon-size: 1.8em !important;
-    vertical-align: bottom !important;
-  }
-</style>
-
 <div class="grid cards" markdown>
 
--   :material-checkbox-multiple-marked-outline:{ .lg .middle } __Getting Started__
+-   :material-checkbox-multiple-marked-outline:{ .lg .top } __Getting Started__
 
     ---
 
@@ -32,7 +22,7 @@ This section contains documentation that is specific to Meshtastic hardware, fir
 
     [:fontawesome-solid-angle-right: Open](getting-started/index.md)
 
--   :material-radar:{ .lg .middle } __MQTT__
+-   :material-radar:{ .lg .top } __MQTT__
 
     ---
 
@@ -40,7 +30,7 @@ This section contains documentation that is specific to Meshtastic hardware, fir
 
     [:fontawesome-solid-angle-right: Open](mqtt.md)
 
--   :material-lock:{ .lg .middle } __Local Channel__
+-   :material-lock:{ .lg .top } __Local Channel__
 
     ---
 

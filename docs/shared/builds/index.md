@@ -18,7 +18,7 @@ These build guides are shared community resources. They are split into Fixed, Mo
 
 <div class="grid cards" markdown>
 
--   :material-crosshairs-gps:{ .lg .middle } __Fixed__
+-   :material-crosshairs-gps:{ .lg .top } __Fixed__
 
     ---
 
@@ -26,7 +26,7 @@ These build guides are shared community resources. They are split into Fixed, Mo
 
     [:fontawesome-solid-angle-right: View](category/fixed.md)
 
--   :material-cellphone-text:{ .lg .middle } __Mobile__
+-   :material-cellphone-text:{ .lg .top } __Mobile__
 
     ---
 
@@ -35,7 +35,7 @@ These build guides are shared community resources. They are split into Fixed, Mo
 
     [:fontawesome-solid-angle-right: View](category/mobile.md)
 
--   :material-solar-power-variant:{ .lg .middle } __Solar__
+-   :material-solar-power-variant:{ .lg .top } __Solar__
 
     ---
 

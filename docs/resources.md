@@ -11,15 +11,9 @@ tags:
 
 Use this page as the main resource switchboard. Start with shared resources that apply across the community, or jump into a protocol-specific collection.
 
-<style>
-  .grid.cards {
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-  }
-</style>
-
 <div class="grid cards" markdown>
 
--   :material-account-group:{ .lg .middle } __Shared Resources__
+-   :material-account-group:{ .lg .top } __Shared Resources__
 
     ---
 
@@ -27,7 +21,7 @@ Use this page as the main resource switchboard. Start with shared resources that
 
     [:fontawesome-solid-angle-right: Open](shared/resources/index.md)
 
--   :material-radio-handheld:{ .lg .middle } __Meshtastic__
+-   :material-radio-handheld:{ .lg .handheld } __Meshtastic__
 
     ---
 
@@ -35,7 +29,7 @@ Use this page as the main resource switchboard. Start with shared resources that
 
     [:fontawesome-solid-angle-right: Open](protocols/meshtastic/resources.md)
 
--   :material-access-point-network:{ .lg .middle } __MeshCore__
+-   :material-access-point-network:{ .lg .top } __MeshCore__
 
     ---
 
@@ -43,7 +37,7 @@ Use this page as the main resource switchboard. Start with shared resources that
 
     [:fontawesome-solid-angle-right: Open](protocols/meshcore/resources.md)
 
--   :material-lan:{ .lg .middle } __Reticulum__
+-   :material-lan:{ .lg .top } __Reticulum__
 
     ---
 

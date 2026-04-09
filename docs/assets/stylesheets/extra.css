@@ -85,3 +85,18 @@
 html {
     overscroll-behavior-y: none;
 }
+
+/* used for icon alignment */
+.md-typeset .top {
+    vertical-align: top;
+}
+/* custom icon alignment for material-radio-handheld */
+.handheld {
+  --md-icon-size: 1.8em !important;
+  vertical-align: bottom !important;
+}
+
+/* override default card grid to force 2x2 layout */
+.grid.cards {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+}

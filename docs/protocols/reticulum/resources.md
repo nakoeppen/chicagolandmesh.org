@@ -14,7 +14,7 @@ Use this page for links and references that are specifically about Reticulum.
 
 <div class="grid cards" markdown>
 
--   :material-lan:{ .lg .middle } __Reticulum Home__
+-   :material-lan:{ .lg .top } __Reticulum Home__
 
     ---
 
@@ -22,7 +22,7 @@ Use this page for links and references that are specifically about Reticulum.
 
     [:fontawesome-solid-angle-right: Visit](https://reticulum.network/)
 
--   :fontawesome-brands-github:{ .lg .middle } __Reticulum GitHub__
+-   :fontawesome-brands-github:{ .lg .top } __Reticulum GitHub__
 
     ---
 

@@ -14,7 +14,7 @@ Use this page for links and references that are specifically about MeshCore.
 
 <div class="grid cards" markdown>
 
--   :material-access-point-network:{ .lg .middle } __MeshCore Home__
+-   :material-access-point-network:{ .lg .top } __MeshCore Home__
 
     ---
 
@@ -22,7 +22,7 @@ Use this page for links and references that are specifically about MeshCore.
 
     [:fontawesome-solid-angle-right: Visit](https://meshcore.co.uk/)
 
--   :fontawesome-brands-github:{ .lg .middle } __MeshCore GitHub__
+-   :fontawesome-brands-github:{ .lg .top } __MeshCore GitHub__
 
     ---
 

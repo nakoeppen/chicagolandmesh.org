@@ -11,19 +11,9 @@ tags:
 
 Use this section to choose how you want to browse the site: start with shared community material, or jump directly into a protocol-specific section.
 
-<style>
-  .grid.cards {
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-  }
-  .handheld {
-    --md-icon-size: 1.8em !important;
-    vertical-align: bottom !important;
-  }
-</style>
-
 <div class="grid cards" markdown>
 
--   :material-account-group:{ .lg .middle } __Shared Community Docs__
+-   :material-account-group:{ .lg .top } __Shared Community Docs__
 
     ---
 
@@ -39,7 +29,7 @@ Use this section to choose how you want to browse the site: start with shared co
 
     [:fontawesome-solid-angle-right: Open](protocols/meshtastic/index.md)
 
--   :material-access-point-network:{ .lg .middle } __MeshCore__
+-   :material-access-point-network:{ .lg .top } __MeshCore__
 
     ---
 
@@ -47,7 +37,7 @@ Use this section to choose how you want to browse the site: start with shared co
 
     [:fontawesome-solid-angle-right: Open](protocols/meshcore/index.md)
 
--   :material-lan:{ .lg .middle } __Reticulum__
+-   :material-lan:{ .lg .top } __Reticulum__
 
     ---
 

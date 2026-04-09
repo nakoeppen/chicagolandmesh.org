@@ -11,15 +11,9 @@ tags:
 
 These links support the broader Chicagoland Mesh community and are useful across multiple protocols.
 
-<style>
-  .grid.cards {
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-  }
-</style>
-
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-github:{ .lg .middle } __Project Repository__
+-   :fontawesome-brands-github:{ .lg .top } __Project Repository__
 
     ---
 
@@ -27,7 +21,7 @@ These links support the broader Chicagoland Mesh community and are useful across
 
     [:fontawesome-solid-angle-right: Visit](https://github.com/chicagolandmesh/chicagolandmesh.org)
 
--   :fontawesome-brands-discord:{ .lg .middle } __Discord__
+-   :fontawesome-brands-discord:{ .lg .top } __Discord__
 
     ---
 
@@ -35,7 +29,7 @@ These links support the broader Chicagoland Mesh community and are useful across
 
     [:fontawesome-solid-angle-right: Join](https://chicagolandmesh.org/discord)
 
--   :material-map-search:{ .lg .middle } __MeshView__
+-   :material-map-search:{ .lg .top } __MeshView__
 
     ---
 
@@ -43,7 +37,7 @@ These links support the broader Chicagoland Mesh community and are useful across
 
     [:fontawesome-solid-angle-right: Open](../../meshview/index.md)
 
--   :material-map-marker-radius:{ .lg .middle } __Community Map__
+-   :material-map-marker-radius:{ .lg .top } __Community Map__
 
     ---
 
