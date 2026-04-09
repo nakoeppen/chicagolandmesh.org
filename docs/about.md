@@ -2,6 +2,8 @@
 tags:
   - Info
   - Getting Started
+  - Meshtastic
+  - MeshCore
 hide:
   - navigation
 ---
@@ -34,7 +36,7 @@ network.
   <figcaption></figcaption>
 </figure>
 
-## What is Meshtastic? <!-- TODO: Section should be ideally be updated to be more Meshtastic-specific -->
+## What is Meshtastic?
 
 [Meshtastic®](https://meshtastic.org) is a community project that allows 
 anybody to communicate over LoRa radios, serving as a decentralized 
@@ -87,18 +89,11 @@ If you are still on the fence, feel free to host both firmware on separate devic
 look into using a firmware like [LunarCore](https://github.com/STCisGOOD/lunarcore), which
 enables you to use both protocols on certain supported boards.
 
-<!-- TODO: Merge below section into getting-started page for more firmware-specific granularity -->
-
 ## Getting Started
-
-!!! warning
-
-    Make sure to look into the [mistakes to avoid](guides/getting-started/avoid-mistakes.md) page to avoid common pitfalls
 
 1. Join [our Discord](https://chicagolandmesh.org/discord)
 2. Purchase [supported hardware](https://meshtastic.org/docs/hardware/devices) and [antenna](https://meshtastic.org/docs/hardware/antennas)
 3. Flash your hardware with the [Meshtastic](https://flasher.meshtastic.org) or [MeshCore](https://flasher.meshcore.dev) firmware
 4. Download the corresponding app for your firmware, then connect to your node.
-(Meshtastic: [iOS](https://apps.apple.com/us/app/meshtastic/id1586432531) or [Android](https://play.google.com/store/apps/details?id=com.geeksville.mesh),
-MeshCore: [iOS](https://apps.apple.com/us/app/meshcore/id6742354151) or [Android](https://play.google.com/store/apps/details?id=com.liamcottle.meshcore.android))
-5. Read the [getting started](https://chicagolandmesh.org/guides/getting-started) page for more information
+(Meshtastic: [iOS](https://apps.apple.com/us/app/meshtastic/id1586432531) or [Android](https://play.google.com/store/apps/details?id=com.geeksville.mesh); MeshCore: [iOS](https://apps.apple.com/us/app/meshcore/id6742354151) or [Android](https://play.google.com/store/apps/details?id=com.liamcottle.meshcore.android))
+5. Read the [getting started](guides/index.md) page for your respective protocol for more information
