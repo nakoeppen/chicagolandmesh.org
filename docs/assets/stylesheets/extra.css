@@ -76,11 +76,6 @@
     color: var(--md-default-fg-color--light);
 }
 
-/* keep deprecated hidden section roots out of the top tabs if they ever appear */
-.md-tabs__item:has(> .md-tabs__link[href$="shared/"]) {
-    display: none;
-}
-
 /* prevent bouncing effect when scrolling out of bounds */
 html {
     overscroll-behavior-y: none;
@@ -99,4 +94,7 @@ html {
 /* override default card grid to force 2x2 layout */
 .grid.cards {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+}
+.grid.cards.small {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
 }

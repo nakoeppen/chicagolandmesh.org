@@ -5,31 +5,12 @@
 
 {% macro nav_key(node) -%}
   {%- set parts = node.url.strip('/').split('/') if node and node.url else [] -%}
-  {%- if not parts or not parts[0] -%}
-  {%- elif parts[0] == "protocols" and parts | length > 1 -%}
-    {{- parts[0] ~ "/" ~ parts[1] -}}
-  {%- elif parts[0] == "shared" and parts | length > 1 and parts[1] == "builds" -%}
-    {{- parts[0] ~ "/" ~ parts[1] -}}
-  {%- else -%}
-    {{- parts[0] -}}
-  {%- endif -%}
+  {{- parts[0] -}}
 {%- endmacro %}
 
 {% macro nav_label(node) -%}
   {%- set parts = node.url.strip('/').split('/') if node and node.url else [] -%}
-  {%- if not parts or not parts[0] -%}
-    Site
-  {%- elif parts[0] == "protocols" and parts | length > 1 -%}
-    {{- parts[1] | replace("-", " ") | title -}}
-  {%- elif parts[0] == "shared" and parts | length > 1 and parts[1] == "builds" -%}
-    Shared Builds
-  {%- elif parts[0] == "shared" -%}
-    Shared
-  {%- elif parts[0] == "meshview" -%}
-    MeshView
-  {%- else -%}
-    {{- parts[0] | replace("-", " ") | title -}}
-  {%- endif -%}
+  {{- parts[-2] | replace("-", " ") | title -}}
 {%- endmacro %}
 
 {% set current_key = nav_key(page) | trim %}

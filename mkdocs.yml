@@ -13,39 +13,40 @@ copyright: >-
 nav:
   - About: about.md
   - Guides:
-    - guides.md
-    - Shared Community Docs:
-      - shared/index.md
-      - Build Guides:
-        - shared/builds/index.md
-      - Contributing: shared/contributing.md
+    - guides/index.md
+    - Community:
+      - guides/community/index.md
+      - Builds:
+          - guides/community/builds/index.md
+      - Contributing: guides/community/contributing.md
     - Meshtastic:
-      - protocols/meshtastic/index.md
+      - guides/meshtastic/index.md
       - Getting Started:
-        - protocols/meshtastic/getting-started/index.md
-        - Configuring Meshtastic: protocols/meshtastic/getting-started/configure.md
-        - Mistakes to Avoid: protocols/meshtastic/getting-started/avoid-mistakes.md
-      - Setup MQTT: protocols/meshtastic/mqtt.md
-      - Local Channel: protocols/meshtastic/local-channel.md
+        - guides/meshtastic/getting-started/index.md
+        - Configuring Meshtastic: guides/meshtastic/getting-started/configure.md
+        - Mistakes to Avoid: guides/meshtastic/getting-started/avoid-mistakes.md
+      - Setup MQTT: guides/meshtastic/mqtt.md
+      - Local Channel: guides/meshtastic/local-channel.md
     - MeshCore:
-      - protocols/meshcore/index.md
+      - guides/meshcore/index.md
       - Getting Started:
-        - protocols/meshcore/getting-started/index.md
-        - Configuring MeshCore: protocols/meshcore/getting-started/configure.md
-        - Mistakes to Avoid: protocols/meshcore/getting-started/avoid-mistakes.md
+        - guides/meshcore/getting-started/index.md
+        - Configuring MeshCore: guides/meshcore/getting-started/configure.md
+        - Mistakes to Avoid: guides/meshcore/getting-started/avoid-mistakes.md
     - Reticulum:
-      - protocols/reticulum/index.md
+      - guides/reticulum/index.md
       - Getting Started:
-        - protocols/reticulum/getting-started/index.md
-        - Configuring Reticulum: protocols/reticulum/getting-started/configure.md
-        - Mistakes to Avoid: protocols/reticulum/getting-started/avoid-mistakes.md
+        - guides/reticulum/getting-started/index.md
+        - Configuring Reticulum: guides/reticulum/getting-started/configure.md
+        - Mistakes to Avoid: guides/reticulum/getting-started/avoid-mistakes.md
   - Resources:
-    - resources.md
-    - Shared Resources: shared/resources/index.md
-    - Meshtastic Resources: protocols/meshtastic/resources.md
-    - MeshCore Resources: protocols/meshcore/resources.md
-    - Reticulum Resources: protocols/reticulum/resources.md
-  - News: news.md
+    - resources/index.md
+    - Community: resources/community.md
+    - Meshtastic: resources/meshtastic.md
+    - MeshCore: resources/meshcore.md
+    - Reticulum: resources/reticulum.md
+  # TODO: maybe
+  # - News: news.md
   - Map: map.md
   - MeshView:
     - meshview/index.md
@@ -71,7 +72,7 @@ plugins:
   - minify:
       minify_html: true
   - blog:
-      blog_dir: shared/builds
+      blog_dir: guides/community/builds
       archive: false
 
 markdown_extensions:
