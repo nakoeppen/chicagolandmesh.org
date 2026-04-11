@@ -16,19 +16,45 @@ tags:
 
     Official MeshCore project site and primary entry point.
 
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://meshcore.io/)
-
--   [:material-access-point-network:{ .lg .top } __MeshCore Home UK__](https://meshcore.co.uk/)
-
-    Official MeshCore domain for UK - [migrated to MeshCore.io](https://www.reddit.com/r/meshcore/comments/1sae3pg/comment/odvglnw/).
-
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://meshcore.co.uk/)
+    ![Link Preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://meshcore.io/)
 
 -   [:fontawesome-brands-github:{ .lg .top } __MeshCore GitHub__](https://github.com/meshcore-dev/MeshCore)
 
     Browse source code, releases, and project activity for MeshCore.
 
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/meshcore-dev/MeshCore)
+    ![Link Preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/meshcore-dev/MeshCore)
+
+</div>
+
+
+## MQTT Related
+
+<div class="grid cards small" markdown>
+
+-   [LetsMesh Packet Analyzer](https://analyzer.letsmesh.net)
+    ![Link Preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://analyzer.letsmesh.net)
+
+-   [MeshMapper CHGO Multi-Region](https://chgo.meshmapper.net) ([Source Code](https://github.com/MeshMapper))
+    ![Link Preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/wait/10/http://chgo.meshmapper.net)
+
+-   [CHGO Mesh Map](https://map.chgomesh.net/) ([Source Code](https://github.com/yellowcooln/meshcore-mqtt-live-map))
+    ![Link Preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://map.chgomesh.net/)
+
+</div>
+
+
+## Tools and Apps
+
+<div class="grid cards small" markdown>
+
+-   [Official MeshCore Internet Map](https://map.meshcore.io) ([Source Code](https://github.com/meshcore-dev/map.meshcore.io))
+    ![Link Preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://map.meshcore.io)
+
+-   [Official MeshCore Flasher](https://flasher.meshcore.io) ([Source Code](https://github.com/meshcore-dev/flasher.meshcore.io))
+    ![Link Preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://flasher.meshcore.io)
+
+-   [CHGO Mesh Planner](https://plan.chgomesh.net/) ([Source Code](https://github.com/PapaSierra555/MeshCommunityPlanner))
+    ![Link Preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://plan.chgomesh.net/)
 
 </div>
 
@@ -38,47 +64,9 @@ tags:
 <div class="grid cards small" markdown>
 
 -   [MeshCore for Home Assistant](https://github.com/meshcore-dev/meshcore-ha)
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/meshcore-dev/meshcore-ha)
+    ![Link Preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/meshcore-dev/meshcore-ha)
 
--   [MeshCore CLI](https://github.com/meshcore-dev/meshcore-cli)
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/meshcore-dev/meshcore-cli)
-
-</div>
-
-
-## MQTT Related
-
-<div class="grid cards small" markdown>
-
--   [Mesh Mapper](https://meshmapper.net)
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://meshmapper.net)
-
--   [Mesh Mapper Chicagoland Region](https://chgo.meshmapper.net)
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/wait/10/http://chgo.meshmapper.net)
-
--   [Mesh Mapper Wiki](https://wiki.meshmapper.net)
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://wiki.meshmapper.net)
-
--   [MeshCore MQTT Broker](https://github.com/michaelhart/meshcore-mqtt-broker)
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/michaelhart/meshcore-mqtt-broker)
-
--   [MeshCore Live Map](https://github.com/yellowcooln/meshcore-mqtt-live-map)
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/yellowcooln/meshcore-mqtt-live-map)
-
-</div>
-
-
-## Tools and Apps
-
-<div class="grid cards small" markdown>
-
--   [MeshCore Analyzer](https://analyzer.letsmesh.net)
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://analyzer.letsmesh.net)
-
--   [Official MeshCore Map](https://map.meshcore.io)
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://map.meshcore.io)
-
--   [Official MeshCore Map GitHub](https://github.com/meshcore-dev/map.meshcore.io)
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/meshcore-dev/map.meshcore.io)
+-   [List of Other MeshCore-Related Projects](https://github.com/samuk/awesome-meshcore)
+    ![Link Preview](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/samuk/awesome-meshcore)
 
 </div>
