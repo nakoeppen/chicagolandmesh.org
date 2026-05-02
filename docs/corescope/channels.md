@@ -1,6 +1,6 @@
 ---
-title: Meshview
-template: meshview.html
+title: CoreScope
+template: corescope.html
 hide:
   - footer
   - toc

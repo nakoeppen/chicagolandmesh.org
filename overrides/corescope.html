@@ -1,0 +1,54 @@
+{% extends "main.html" %}
+
+{% block styles %}
+{{ super() }}
+  <style>
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* make content full width */
+    .md-main {
+      position: relative;
+    }
+    .md-main__inner.md-grid {
+      margin: 0 !important;
+      position: absolute;
+      max-width: 100%;
+      width: 100%;
+    }
+    .md-content {
+      height: 100%;
+    }
+    .md-content__inner {
+      margin: 0;
+      padding-top: 0;
+      height: 100%;
+    }
+    .md-content__inner:before {
+      display: none;
+    }
+
+    /* fix margining issues with sidebar after making content full width */
+    .md-sidebar__inner {
+      margin-left: 10px;
+      margin-top: 10px;
+      width: 9rem;
+    }
+    /*@media only screen and (min-width: 1220px) {
+      .md-content {
+        margin-right: 242px;
+      }
+    }*/
+  </style>
+{% endblock %}
+
+{% block content %}
+<iframe
+  id="corescope"
+  onload="this"
+  src="https://corescope.chicagolandmesh.org/#/{{ page.url | replace('corescope', '') | trim('/') }}"
+></iframe>
+{% endblock %}
