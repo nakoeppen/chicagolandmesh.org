@@ -18,11 +18,6 @@ tags:
 
     ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://meshcore.io/)
 
--   [:material-access-point-network:{ .lg .top } __MeshCore Home UK__](https://meshcore.co.uk/)
-
-    Official MeshCore domain for UK - [migrated to MeshCore.io](https://www.reddit.com/r/meshcore/comments/1sae3pg/comment/odvglnw/).
-
-    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://meshcore.co.uk/)
 
 -   [:fontawesome-brands-github:{ .lg .top } __MeshCore GitHub__](https://github.com/meshcore-dev/MeshCore)
 
@@ -37,11 +32,20 @@ tags:
 
 <div class="grid cards small" markdown>
 
+-   [Awesome MeshCore GitHub](https://github.com/samuk/awesome-meshcore)
+    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/samuk/awesome-meshcore)
+
 -   [MeshCore for Home Assistant](https://github.com/meshcore-dev/meshcore-ha)
     ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/meshcore-dev/meshcore-ha)
 
+-   [MeshOS KeyGen](https://meshoskey.com/)
+    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://meshoskey.com/)
+
 -   [MeshCore CLI](https://github.com/meshcore-dev/meshcore-cli)
     ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/meshcore-dev/meshcore-cli)
+
+-   [MeshCore Web KeyGen](https://github.com/agessaman/meshcore-web-keygen)
+    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/agessaman/meshcore-web-keygen)
 
 </div>
 
@@ -64,6 +68,15 @@ tags:
 
 -   [MeshCore Live Map](https://github.com/yellowcooln/meshcore-mqtt-live-map)
     ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/yellowcooln/meshcore-mqtt-live-map)
+
+-   [MeshCore Health Check](https://github.com/yellowcooln/meshcore-mqtt-live-map)
+    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/yellowcooln/meshcore-mqtt-live-map)
+
+-   [CoreScope GitHub](https://github.com/Kpa-clawbot/CoreScope)
+    ![Link preivew](https://image.thum.io/get/width/700/maxAge/672/allowJPG/noanimate/http://github.com/Kpa-clawbot/CoreScope)
+
+
+
 
 </div>
 
