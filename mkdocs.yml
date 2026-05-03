@@ -33,6 +33,7 @@ nav:
         - guides/meshcore/getting-started/index.md
         - Configuring MeshCore: guides/meshcore/getting-started/configure.md
         - Mistakes to Avoid: guides/meshcore/getting-started/avoid-mistakes.md
+      - Setup MQTT: guides/meshcore/mqtt.md
     - Reticulum:
       - guides/reticulum/index.md
       - Getting Started:
@@ -48,15 +49,26 @@ nav:
   # TODO: maybe
   # - News: news.md
   - Map: map.md
-  - MeshView:
-    - meshview/index.md
-    - Nodes: meshview/nodelist.md
-    - Map: meshview/map.md
-    - See everything: meshview/firehose.md
-    - Graph: meshview/nodegraph.md
-    - Stats: meshview/stats.md
-    - Top Traffic: meshview/top.md
-    - View Externally: https://meshview.chicagolandmesh.org
+  - Analyzers:
+    - Meshcore:
+      - corescope/index.md
+      - Packets: corescope/packets.md
+      - Map: corescope/map.md
+      - Live: corescope/live.md
+      - Channels: corescope/channels.md
+      - Nodes: corescope/nodes.md
+      - Traces: corescope/traces.md
+      - Observers: corescope/observers.md
+      - Analytics: corescope/analytics.md
+    - Meshtastic:
+      - meshview/index.md
+      - Nodes: meshview/nodelist.md
+      - Map: meshview/map.md
+      - See everything: meshview/firehose.md
+      - Graph: meshview/nodegraph.md
+      - Stats: meshview/stats.md
+      - Top Traffic: meshview/top.md
+      - View Externally: https://meshview.chicagolandmesh.org
   # TODO: gallery
   # - Gallery: gallery/index.md
   - Neighboring Networks: neighbors.md
